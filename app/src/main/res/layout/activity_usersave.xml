@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usersave">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="55dp"
+            android:layout_marginTop="30dp"
+            android:text="Please Fill All The Details"/>
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/user1"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:hint="Confirm Password" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="25dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/back"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Toggle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:text="Back" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
