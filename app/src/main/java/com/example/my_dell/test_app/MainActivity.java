@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 {
 
                     Toast.makeText(getApplicationContext(),"Perfect",Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(getApplicationContext(),User_Portal.class);
+                    Intent i = new Intent(getApplicationContext(),User_Navigation.class);
                     startActivity(i);
 
                 }
