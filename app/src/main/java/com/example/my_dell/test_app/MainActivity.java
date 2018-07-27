@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext() ,Usersave.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Perfect",Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(getApplicationContext(),User_Navigation.class);
                     startActivity(i);
-
+                    finish();
                 }
                 else
                 {
