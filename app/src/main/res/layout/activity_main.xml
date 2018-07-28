@@ -15,7 +15,7 @@
         android:id="@+id/rl_two_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp">
+        android:layout_marginTop="70dp">
 
         <TextView
             android:id="@+id/tv_one_login"
@@ -54,11 +54,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="200dp"
                 android:elevation="10dp"
                 app:cardBackgroundColor="#fcfcfc"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
+
                 app:cardPreventCornerOverlap="false"
                 app:cardUseCompatPadding="true">
 
@@ -71,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:padding="10dp"
 
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="30dp"
                         android:id="@+id/username"
                         android:hint="Username" />
 
@@ -81,33 +82,40 @@
                         android:padding="10dp"
                         android:layout_marginTop="20dp"
                         android:hint="Password"
+                        android:inputType="textPassword"
+                        android:layout_marginBottom="8dp"
                         android:id="@+id/password"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
+                        android:layout_marginBottom="5dp"
                         android:text="" />
 
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </RelativeLayout>
+
         <Button
-            android:layout_width="250dp"
+            android:id="@+id/submit_area1"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_below="@id/cv_one_login"
             android:layout_centerHorizontal="true"
-            android:text="Submit"
             android:layout_gravity="center"
-            android:id="@+id/submit_area1"
-            android:layout_marginTop="-35dp"
-            android:elevation="15dp" />
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:elevation="15dp"
+            android:text="Submit"
+            android:textColor="#ffffffff" />
 
         <Button
             style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="New User?? Signup"
             android:id="@+id/save_area"
             android:textColor="@color/design_default_color_primary"
