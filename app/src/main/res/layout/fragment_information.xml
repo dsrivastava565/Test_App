@@ -14,11 +14,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-            android:fontFamily="@font/lobster"
+            android:fontFamily="@font/aclonica"
             android:gravity="center"
             android:text="Your Information"
-            android:textSize="30dp"
-            app:fontFamily="@font/lobster"
+            android:textSize="30sp"
+            app:fontFamily="serif"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="228dp" />
 
@@ -32,30 +32,29 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="56dp">
+            android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name:"
-                android:textSize="20dp"/>
+                android:textSize="20dp"
+                android:fontFamily="@font/aclonica" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Username:"
-                android:textSize="20dp"
-                />
+                android:fontFamily="@font/aclonica"
+                android:textSize="20dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Password:"
+                android:fontFamily="@font/aclonica"
                 android:textSize="20dp"/>
 
 
@@ -63,18 +62,23 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <TextView
-            android:id="@+id/name_show"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="    dsds"/>
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/name_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="    dsds"
+                android:textSize="20dp"
+                android:fontFamily="@font/actor" />
             <TextView
                 android:id="@+id/username_show"
                 android:textSize="20dp"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/actor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="    ddfddfdf"/>
@@ -83,10 +87,12 @@
                 android:id="@+id/password_show"
                 android:textSize="20dp"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/actor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="    dsds"/>
         </LinearLayout>
+
     </LinearLayout>
 
     <Button

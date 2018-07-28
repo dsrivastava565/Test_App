@@ -1,6 +1,7 @@
 package com.example.my_dell.test_app;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -27,7 +28,9 @@ public class Information_fragment extends Fragment {
         view.findViewById(R.id.Click_me).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(),"Click ME",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(),User_Navigation.class);
+                startActivity(intent);
+
             }
         });
 

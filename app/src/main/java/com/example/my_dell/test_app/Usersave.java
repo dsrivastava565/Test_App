@@ -54,6 +54,9 @@ public class Usersave extends AppCompatActivity {
                     editor.putString("Name",name.getText().toString());
                     editor.commit();
                     Toast.makeText(getApplicationContext(), "Saved Successfully", Toast.LENGTH_LONG).show();
+                    Intent ji = new Intent(getApplicationContext(),MainActivity.class);
+                    startActivity(ji);
+                    finish();
 
                 } else {
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
