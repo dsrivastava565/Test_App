@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button signup,submit;
     String forUser,forPassword;
     EditText Username,Password;
+  //  CardView cardView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         submit=(Button)findViewById(R.id.submit_area1);
         Username=(EditText)findViewById(R.id.username);
         Password=(EditText)findViewById(R.id.password);
+       // cardView=(CardView)findViewById(R.id.card_view);
+      //  cardView.setCardElevation(300);
+        //cardView.setRadius(5);
         OnButtonClick();
         OnSubmitClick();
     }
