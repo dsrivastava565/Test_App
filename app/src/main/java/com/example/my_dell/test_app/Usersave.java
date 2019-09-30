@@ -18,12 +18,12 @@ public class Usersave extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_usersave);
-        save=(Button)findViewById(R.id.signup);
-        username=(EditText)findViewById(R.id.user1);
-        pas1=(EditText)findViewById(R.id.pass1);
-        pas2=(EditText)findViewById(R.id.pass2);
-        back=(Button)findViewById(R.id.back);
-        name=(EditText)findViewById(R.id.Name);
+        save = (Button)findViewById(R.id.signup);
+        username = (EditText)findViewById(R.id.user1);
+        pas1 = (EditText)findViewById(R.id.pass1);
+        pas2 = (EditText)findViewById(R.id.pass2);
+        back = (Button)findViewById(R.id.back);
+        name = (EditText)findViewById(R.id.Name);
 
 
 
@@ -63,9 +63,6 @@ public class Usersave extends AppCompatActivity {
                 }
             }
     });
-
-
-
     }
 
 
